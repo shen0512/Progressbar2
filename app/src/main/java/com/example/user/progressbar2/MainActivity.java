@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //public final StaticHandler mHandler = new StaticHandler(this);
-    Handler mHandler=new Handler();
+    public final StaticHandler mHandler = new StaticHandler(this);
+    //Handler mHandler=new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
